@@ -281,7 +281,7 @@ HelpMarker = "Usage:"
 
 ### ByPy config constants
 ## directories, for setting, cache, etc
-HomeDir = expanduser('~')
+HomeDir = '/data'
 # os.path.join() may not handle unicode well
 ConfigDir = HomeDir + os.sep + '.bypy'
 TokenFileName = 'bypy.json'
